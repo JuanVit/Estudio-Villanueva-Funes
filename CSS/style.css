@@ -356,7 +356,8 @@ body {
 
 @media only screen and (min-width: 401px) {
   .img-logo {
-    width: auto; }
+    width: 100%;
+    height: 100%; }
   .nav-logo {
     width: 223px; } }
 
