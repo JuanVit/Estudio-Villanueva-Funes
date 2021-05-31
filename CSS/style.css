@@ -261,6 +261,8 @@ body {
           color: #C6A17D; } }
 
 @media only screen and (max-width: 991px) {
+  .section-one {
+    background-attachment: scroll; }
   #section-two {
     height: 2000px;
     margin-bottom: 0px; }
