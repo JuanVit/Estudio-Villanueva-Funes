@@ -356,6 +356,52 @@ body {
   .section-form {
     background-attachment: scroll; } }
 
+@media only screen and (max-width: 700px) {
+  #section-three {
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    height: 770px;
+    background: rgba(231, 204, 171, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+    #section-three .section-three-title {
+      font-family: "Libre Baskerville", serif;
+      font-size: 3.8rem;
+      font-weight: 400;
+      margin-top: 100px; }
+      #section-three .section-three-title::after {
+        content: '';
+        position: absolute;
+        display: block;
+        left: 48%;
+        width: 4%;
+        height: 25%;
+        border-bottom: 3px solid #C6A17D;
+        bottom: -10%; }
+    #section-three .section-three-img {
+      position: absolute;
+      z-index: 1;
+      left: 10%;
+      top: 45%;
+      height: 30%;
+      width: 80%;
+      border: 15px solid white; }
+    #section-three .section-three-content {
+      padding-right: 20%;
+      margin-top: 170px;
+      box-sizing: border-box;
+      width: 100%;
+      background-color: #274244;
+      height: 272px; }
+      #section-three .section-three-content .section-three-text {
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        left: 25%;
+        color: white;
+        font-size: 1.8rem; } }
+
 @media only screen and (min-width: 401px) {
   .img-logo {
     width: 70%;
