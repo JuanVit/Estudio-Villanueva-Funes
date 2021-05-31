@@ -44,9 +44,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-  .section-one .img-logo {
-    height: 70%;
-    width: 70%; }
   .section-one .section-one-text {
     margin-top: 50px; }
     .section-one .section-one-text h2 {
@@ -168,6 +165,9 @@ body {
 @media only screen and (min-width: 992px) {
   .section-one {
     background-attachment: fixed; }
+    .section-one .img-logo {
+      height: 50%;
+      width: 50%; }
   #section-two {
     height: 770px;
     margin-bottom: 150px; }
