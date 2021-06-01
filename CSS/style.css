@@ -152,13 +152,14 @@ body {
       height: 50%;
       width: 50%; }
   #section-two {
-    height: 770px;
+    height: 700px;
     margin-bottom: 100px; }
     #section-two .section-two-title {
       font-family: "Libre Baskerville", serif;
       font-size: 3.8rem;
       font-weight: 400;
-      margin-top: 100px; }
+      margin-top: 100px;
+      margin-bottom: 50px; }
       #section-two .section-two-title::after {
         content: '';
         position: absolute;
@@ -167,7 +168,7 @@ body {
         width: 4%;
         height: 25%;
         border-bottom: 3px solid #C6A17D;
-        bottom: 50%; }
+        bottom: 15%; }
     #section-two .section-two-card {
       display: flex;
       flex-direction: column;
@@ -208,7 +209,7 @@ body {
         border-radius: 8px 8px 8px 8px;
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-left: 55px;
+        padding-left: 35px;
         padding-right: 15px;
         height: 380px;
         border: solid 1px #E7CCAB; }
@@ -305,13 +306,14 @@ body {
   .section-one {
     background-attachment: scroll; }
   #section-two {
-    height: 1800px;
-    margin-bottom: 100px; }
+    height: 1650px;
+    margin-bottom: 50px; }
     #section-two .section-two-title {
       font-family: "Libre Baskerville", serif;
       font-size: 3.8rem;
       font-weight: 400;
-      margin-top: 100px; }
+      margin-top: 80px;
+      margin-bottom: 50px; }
       #section-two .section-two-title::after {
         content: '';
         position: absolute;
@@ -320,12 +322,12 @@ body {
         width: 4%;
         height: 25%;
         border-bottom: 3px solid #C6A17D;
-        bottom: 50%; }
+        bottom: 20%; }
     #section-two .section-two-card {
       display: flex;
       flex-direction: column;
       width: auto;
-      height: 250px;
+      height: 430px;
       margin-left: 30px;
       margin-right: 30px;
       transition: all .3s ease; }
@@ -503,20 +505,19 @@ body {
   .nav-logo {
     width: 223px; } }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .nav-logo {
     width: 150px; }
   .img-logo {
     width: 100%; }
   #section-two {
-    height: 1800px;
-    margin-bottom: 100px; }
+    height: 1700px;
+    margin-bottom: 20px; }
     #section-two .section-two-title {
       font-family: "Libre Baskerville", serif;
       font-size: 3.8rem;
       font-weight: 400;
-      margin-top: 100px;
-      height: 20px !important; }
+      margin-top: 50px; }
       #section-two .section-two-title::after {
         content: '';
         position: absolute;
@@ -525,7 +526,7 @@ body {
         width: 4%;
         height: 25%;
         border-bottom: 3px solid #C6A17D;
-        bottom: 35%; }
+        bottom: 20%; }
   #section-three {
     box-sizing: border-box;
     position: relative;
