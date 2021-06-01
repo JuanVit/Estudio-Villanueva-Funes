@@ -57,7 +57,6 @@ body {
       letter-spacing: 2px; }
 
 .section-five {
-  margin-bottom: 100px;
   height: 880px;
   background: linear-gradient(90deg, rgba(39, 66, 68, 0.85) 38.54%, rgba(39, 66, 68, 0.741067) 52.6%, rgba(39, 66, 68, 0.595) 67.71%, rgba(39, 66, 68, 0.294484) 83.33%, rgba(39, 66, 68, 0) 100%, rgba(39, 66, 68, 0) 100%), url("../media-estudio/Imagen 3.jpg");
   background-position: center;
@@ -109,6 +108,43 @@ body {
     background: #C6A17D;
     border-radius: 5px; }
 
+.section-six {
+  background-color: #F8F0E6;
+  height: 750px; }
+  .section-six .section-six-title {
+    font-family: "Libre Baskerville", serif;
+    font-size: 3.6rem;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-bottom: 15%; }
+    .section-six .section-six-title::after {
+      content: '';
+      position: absolute;
+      display: block;
+      left: 2%;
+      width: 65%;
+      height: 25%;
+      border-bottom: 3px solid #C6A17D;
+      top: 40%; }
+  .section-six p {
+    font-size: 1.6rem; }
+    .section-six p .fas {
+      font-size: 1.8rem;
+      margin-right: 10px; }
+  .section-six .section-six-container {
+    margin-top: 100px; }
+
+.footer {
+  height: 180px;
+  background-color: #274244; }
+  .footer .fab {
+    color: white;
+    font-size: 5rem;
+    margin-top: 30%; }
+  .footer .footer-text {
+    font-size: 1.6rem;
+    color: white; }
+
 @media only screen and (min-width: 992px) {
   .section-one {
     background-attachment: fixed; }
@@ -117,7 +153,7 @@ body {
       width: 50%; }
   #section-two {
     height: 770px;
-    margin-bottom: 150px; }
+    margin-bottom: 100px; }
     #section-two .section-two-title {
       font-family: "Libre Baskerville", serif;
       font-size: 3.8rem;
@@ -131,12 +167,12 @@ body {
         width: 4%;
         height: 25%;
         border-bottom: 3px solid #C6A17D;
-        bottom: 35%; }
+        bottom: 50%; }
     #section-two .section-two-card {
       display: flex;
       flex-direction: column;
-      width: 380px !important;
-      height: 350px;
+      width: 250px !important;
+      height: 200px !important;
       margin-left: 30px;
       margin-right: 30px;
       transition: all .3s ease; }
@@ -262,7 +298,7 @@ body {
         font-size: 1.7rem; }
         .section-four .section-four-cards .cards-bottom span {
           color: #C6A17D; }
-  .section-form {
+  .section-five {
     background-attachment: fixed; } }
 
 @media only screen and (max-width: 991px) {
@@ -411,7 +447,7 @@ body {
         font-size: 1.7rem; }
         .section-four .section-four-cards .cards-bottom span {
           color: #C6A17D; }
-  .section-form {
+  .section-five {
     background-attachment: scroll; } }
 
 @media only screen and (max-width: 700px) {
