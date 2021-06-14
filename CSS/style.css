@@ -344,7 +344,7 @@ body {
       width: 150px;
       height: 40px; }
   .section-one {
-    background-attachment: scroll; }
+    background-attachment: unset; }
     .section-one .img-logo {
       height: 200px;
       width: 100%; }
