@@ -133,6 +133,10 @@ body {
       margin-right: 10px; }
   .section-six .section-six-container {
     margin-top: 100px; }
+  .section-six #map {
+    height: 180%;
+    width: 100%;
+    padding-right: 200px; }
 
 .footer {
   height: 180px;
