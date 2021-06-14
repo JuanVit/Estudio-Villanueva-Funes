@@ -386,11 +386,28 @@ body{
             }
         }
         .section-five{
-            .form-input{
-                height: 30px;
+            .form-title{
+                text-align: center;
             }
-            .form-textarea{
-                height: 200px !important
+            .form-input-box{
+                display: flex;
+                justify-content: center;
+                .form-input{
+                    margin: 3% 5px !important ;
+                    height: 30px;
+                }    
+            }
+            .text-area-box{
+                display: flex;
+                justify-content: center;
+                .form-textarea{
+                    height: 200px !important;
+                    margin: 5% 0px;
+                }
+            }
+            .form-button-box{
+                display: flex;
+                justify-content: center;
             }
         }
         .section-six{

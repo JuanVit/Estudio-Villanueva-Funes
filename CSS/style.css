@@ -334,10 +334,23 @@ body {
     .section-four .section-four-cards {
       height: 250px;
       margin: 10px 0px; }
-  .section-five .form-input {
-    height: 30px; }
-  .section-five .form-textarea {
-    height: 200px !important; }
+  .section-five .form-title {
+    text-align: center; }
+  .section-five .form-input-box {
+    display: flex;
+    justify-content: center; }
+    .section-five .form-input-box .form-input {
+      margin: 3% 5px !important;
+      height: 30px; }
+  .section-five .text-area-box {
+    display: flex;
+    justify-content: center; }
+    .section-five .text-area-box .form-textarea {
+      height: 200px !important;
+      margin: 5% 0px; }
+  .section-five .form-button-box {
+    display: flex;
+    justify-content: center; }
   .section-six .section-six-title::after {
     top: 10%; } }
 
