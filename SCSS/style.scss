@@ -276,6 +276,7 @@ body{
                 border: 1px solid #BDBDBD;
                 border-radius: 5px;
                 margin: 5% 5% 5% 0%;
+                max-height: 40px;
                 &:focus{
                     outline: none;
                 }
@@ -286,6 +287,7 @@ body{
                 border: 1px solid #BDBDBD;
                 border-radius: 5px;
                 margin: 0% 5% 2% 0%;
+                height: 250px;
                 &:focus{
                     outline: none;
                 }
@@ -500,6 +502,7 @@ body{
                 justify-content: center;
                 .form-input{
                     margin: 10px 0px;
+                    height: 40px;
                 }
             }
             .text-area-box{
@@ -507,6 +510,7 @@ body{
                 justify-content: center;
                 .form-textarea{
                     margin: 10px 0px;
+                    height: 200px;
                 }
             }
             .form-button-box{
