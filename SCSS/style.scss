@@ -68,6 +68,7 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
             .img-logo{
                 height: 50%;
                 width: 50%;
@@ -247,6 +248,7 @@ body{
         background: linear-gradient(90deg, rgba(39, 66, 68, 0.85) 38.54%, rgba(39, 66, 68, 0.741067) 52.6%, rgba(39, 66, 68, 0.595) 67.71%, rgba(39, 66, 68, 0.294484) 83.33%, rgba(39, 66, 68, 0) 100%, rgba(39, 66, 68, 0) 100%), url("../media-estudio/Imagen 3.jpg");
         background-position: center;
         background-size: cover;
+        background-attachment: fixed;
         .section-five-title{
             color: white;
             @include sectionTitle($secondary-font, 3.8rem, 400, 100px);
@@ -356,6 +358,7 @@ body{
             width: 250px !important;
             height: 60px !important;
         }
+        
         #section-two{
             height: 1650px;
             .section-two-card{
@@ -395,6 +398,7 @@ body{
             }
         }    
         .section-one{
+            background-attachment: scroll;
             .img-logo{
                 height: 200px;
                 width: 100%;
@@ -475,6 +479,7 @@ body{
         }
         .section-five{
             height: 600px;
+            background-attachment: scroll;
             .section-five-title{
                 margin-bottom: 40px;
                 &::after{
