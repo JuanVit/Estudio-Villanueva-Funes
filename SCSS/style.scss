@@ -414,6 +414,10 @@ body{
             height: 1200px;
             .section-two-card{
                 margin:20px 0px 140px 0px !important;
+                &:hover{
+                    transform: none;
+                    box-shadow: none;
+                }
                 .card-bottom{
                     padding: 0%;
                     padding-top: 10%;
@@ -447,8 +451,10 @@ body{
                 background-color: #274244;
                 height: 272px;
                 .section-three-text{
+                    width: 60%;
+                    margin: auto;
                     display: flex;
-                    left: 22%;
+                    left: 21%;
                     text-align: center;
                     color: white;
                     font-size: 2.2rem;

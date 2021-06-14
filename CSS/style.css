@@ -356,6 +356,9 @@ body {
     height: 1200px; }
     #section-two .section-two-card {
       margin: 20px 0px 140px 0px !important; }
+      #section-two .section-two-card:hover {
+        transform: none;
+        box-shadow: none; }
       #section-two .section-two-card .card-bottom {
         padding: 0%;
         padding-top: 10%;
@@ -384,8 +387,10 @@ body {
       background-color: #274244;
       height: 272px; }
       #section-three .section-three-content .section-three-text {
+        width: 60%;
+        margin: auto;
         display: flex;
-        left: 22%;
+        left: 21%;
         text-align: center;
         color: white;
         font-size: 2.2rem; }
