@@ -333,7 +333,13 @@ body {
     height: 1200px; }
     .section-four .section-four-cards {
       height: 250px;
-      margin: 10px 0px; } }
+      margin: 10px 0px; }
+  .section-five .form-input {
+    height: 30px; }
+  .section-five .form-textarea {
+    height: 200px !important; }
+  .section-six .section-six-title::after {
+    top: 10%; } }
 
 @media only screen and (max-width: 550px) and (min-width: 320px) {
   html {
