@@ -309,6 +309,20 @@ body {
     font-size: 1.6rem;
     color: white; }
 
+@media only screen and (max-width: 1600px) and (min-width: 901px) {
+  html {
+    font-size: 50%; }
+  .section-two-card .card-top img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 20%;
+    right: 66% !important;
+    padding-right: 10px; }
+  .section-four .section-four-cards {
+    height: 400px;
+    margin: 0px 10px; } }
+
 @media only screen and (max-width: 900px) and (min-width: 551px) {
   html {
     font-size: 58%; }
@@ -316,7 +330,7 @@ body {
     width: 250px !important;
     height: 60px !important; }
   #section-two {
-    height: 1650px; }
+    height: 1700px; }
     #section-two .section-two-card {
       margin: 140px 0px !important; }
     #section-two .firstCard {
