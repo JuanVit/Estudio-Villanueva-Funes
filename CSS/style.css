@@ -463,14 +463,14 @@ body {
       justify-content: center; }
       .section-five .form-input-box .form-input {
         width: 100%;
-        margin: 2% 0px;
+        margin: 0px;
         height: 40px; }
     .section-five .text-area-box {
       display: flex;
       justify-content: center; }
       .section-five .text-area-box .form-textarea {
         width: 100%;
-        margin: 2% 0px;
+        margin: 0px;
         height: 200px; }
     .section-five .form-button-box {
       width: 100%;
