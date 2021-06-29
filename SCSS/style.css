@@ -347,6 +347,7 @@ body {
 }
 
 .section-five .form .form-input {
+  width: 30%;
   margin: 5% 5% 5% 0%;
   font-size: 1.5rem;
   padding: 1%;
@@ -360,6 +361,7 @@ body {
 }
 
 .section-five .form .form-textarea {
+  width: 65%;
   margin: 0% 5% 2% 0%;
   font-size: 1.6rem;
   padding: 1%;
@@ -512,6 +514,7 @@ body {
             justify-content: center;
   }
   .section-five .form-input-box .form-input {
+    width: 80%;
     margin: 3% 5px !important;
     height: 30px;
   }
@@ -524,6 +527,7 @@ body {
             justify-content: center;
   }
   .section-five .text-area-box .form-textarea {
+    width: 80%;
     height: 200px !important;
     margin: 5% 0px;
   }
@@ -671,6 +675,7 @@ body {
             justify-content: center;
   }
   .section-five .form-input-box .form-input {
+    width: 100%;
     margin: 2% 0px;
     height: 40px;
   }
@@ -683,10 +688,12 @@ body {
             justify-content: center;
   }
   .section-five .text-area-box .form-textarea {
+    width: 100%;
     margin: 2% 0px;
     height: 200px;
   }
   .section-five .form-button-box {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -719,3 +726,4 @@ body {
     height: 250px;
   }
 }
+/*# sourceMappingURL=style.css.map */

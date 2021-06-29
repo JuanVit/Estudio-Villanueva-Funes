@@ -241,6 +241,7 @@ body {
     color: white;
     font-size: 3.2rem; }
   .section-five .form .form-input {
+    width: 30%;
     margin: 5% 5% 5% 0%;
     font-size: 1.5rem;
     padding: 1%;
@@ -250,6 +251,7 @@ body {
     .section-five .form .form-input:focus {
       outline: none; }
   .section-five .form .form-textarea {
+    width: 65%;
     margin: 0% 5% 2% 0%;
     font-size: 1.6rem;
     padding: 1%;
@@ -354,12 +356,14 @@ body {
     display: flex;
     justify-content: center; }
     .section-five .form-input-box .form-input {
+      width: 80%;
       margin: 3% 5px !important;
       height: 30px; }
   .section-five .text-area-box {
     display: flex;
     justify-content: center; }
     .section-five .text-area-box .form-textarea {
+      width: 80%;
       height: 200px !important;
       margin: 5% 0px; }
   .section-five .form-button-box {
@@ -458,15 +462,18 @@ body {
       display: flex;
       justify-content: center; }
       .section-five .form-input-box .form-input {
+        width: 100%;
         margin: 2% 0px;
         height: 40px; }
     .section-five .text-area-box {
       display: flex;
       justify-content: center; }
       .section-five .text-area-box .form-textarea {
+        width: 100%;
         margin: 2% 0px;
         height: 200px; }
     .section-five .form-button-box {
+      width: 100%;
       display: flex;
       justify-content: center; }
   .section-six {
