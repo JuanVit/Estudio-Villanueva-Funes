@@ -406,6 +406,7 @@ body {
   color: white;
   margin: 0;
   opacity: .5;
+  text-decoration: none;
 }
 
 .footer .redes:hover {
@@ -422,7 +423,6 @@ body {
 }
 
 .footer .linksFooter a {
-  padding: 8% 0%;
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
