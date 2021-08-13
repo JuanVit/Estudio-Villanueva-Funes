@@ -124,13 +124,12 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 250px;
-  height: 470px;
+  width: 250px !important;
+  height: 200px !important;
   margin-left: 30px;
   margin-right: 30px;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  border-radius: 8px;
 }
 
 #section-two .section-two-card:hover {
@@ -169,7 +168,7 @@ body {
 #section-two .section-two-card .card-top img {
   position: absolute;
   bottom: 20%;
-  right: 66%;
+  right: 70%;
 }
 
 #section-two .section-two-card .card-bottom {
@@ -311,6 +310,88 @@ body {
   color: #C6A17D;
 }
 
+.section-five {
+  height: 850px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(38.54%, rgba(39, 66, 68, 0.85)), color-stop(52.6%, rgba(39, 66, 68, 0.741067)), color-stop(67.71%, rgba(39, 66, 68, 0.595)), color-stop(83.33%, rgba(39, 66, 68, 0.294484)), color-stop(100%, rgba(39, 66, 68, 0)), to(rgba(39, 66, 68, 0))), url("../media-estudio/Imagen 3.jpg");
+  background: linear-gradient(90deg, rgba(39, 66, 68, 0.85) 38.54%, rgba(39, 66, 68, 0.741067) 52.6%, rgba(39, 66, 68, 0.595) 67.71%, rgba(39, 66, 68, 0.294484) 83.33%, rgba(39, 66, 68, 0) 100%, rgba(39, 66, 68, 0) 100%), url("../media-estudio/Imagen 3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section-five .section-five-title {
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  font-size: 3.8rem;
+  font-weight: 400;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-five .section-five-title::after {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 48%;
+  width: 4%;
+  height: 25%;
+  border-bottom: 3px solid #C6A17D;
+  top: 40%;
+}
+
+.section-five .form .form-title {
+  font-weight: 400;
+  font-family: "Libre Baskerville", serif;
+  color: white;
+  font-size: 3.2rem;
+}
+
+.section-five .form .form-input {
+  width: 30%;
+  margin: 5% 5% 5% 0%;
+  font-size: 1.5rem;
+  padding: 1%;
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  max-height: 40px;
+}
+
+.section-five .form .form-input:focus {
+  outline: none;
+}
+
+.section-five .form .form-textarea {
+  width: 65%;
+  margin: 0% 5% 2% 0%;
+  font-size: 1.6rem;
+  padding: 1%;
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  height: 250px;
+}
+
+.section-five .form .form-textarea:focus {
+  outline: none;
+}
+
+.section-five .form .cta-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  padding: 1% 2%;
+  background: #C6A17D;
+  border-radius: 5px;
+}
+
 .section-six {
   height: 650px;
   background-color: #F8F0E6;
@@ -355,24 +436,19 @@ body {
 }
 
 .footer {
+  height: 300px;
   background-color: #274244;
-}
-
-.footer .derechosFooter .far {
-  font-size: 1.8rem;
 }
 
 .footer .derechosFooter .footer-text {
   font-size: 1.6rem;
   color: white;
-  opacity: .8;
 }
 
 .footer h2 {
   font-size: 2.3rem;
   font-weight: 200;
   color: white;
-  opacity: .9;
 }
 
 .footer h2::before {
@@ -381,68 +457,40 @@ body {
   padding-right: 5px;
 }
 
-.footer .redesContainer h2 {
-  opacity: .9;
-}
-
 .footer .redesContainer .fab {
   color: white;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 5%;
 }
 
 .footer .far {
   color: white;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin-top: 5%;
 }
 
 .footer p {
   font-size: 1.6rem;
   color: white;
-  opacity: .5;
-}
-
-.footer .redes {
-  font-size: 1.6rem;
-  color: white;
   margin: 0;
-  opacity: .5;
-  text-decoration: none;
 }
 
-.footer .redes:hover {
-  opacity: inherit;
-}
-
-.footer .redes a {
-  text-decoration: none;
-  color: white;
-}
-
-.footer .linksFooter h2 {
-  opacity: .9;
-}
-
-.footer .linksFooter a {
+.linksFooter a {
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
-  opacity: .5;
 }
 
-.footer .linksFooter a:hover {
-  opacity: inherit;
-}
-
-@media only screen and (max-width: 1990px) and (min-width: 1471px) {
+@media only screen and (max-width: 1600px) and (min-width: 901px) {
   html {
-    font-size: 60%;
+    font-size: 50%;
   }
   .section-two-card .card-top img {
     width: 60px;
     height: 60px;
     position: absolute;
     bottom: 20%;
+    right: 66% !important;
     padding-right: 10px;
   }
   .section-four .section-four-cards {
@@ -451,30 +499,82 @@ body {
   }
 }
 
-@media only screen and (max-width: 1470px) and (min-width: 901px) {
+@media only screen and (max-width: 900px) and (min-width: 551px) {
   html {
-    font-size: 50%;
+    font-size: 58%;
   }
-  .width-change {
-    width: 120px;
-    text-align: center;
+  .nav-logo {
+    width: 250px !important;
+    height: 60px !important;
   }
-  .section-two-card {
-    width: 600px;
+  #section-two {
+    height: 1700px;
   }
-  .section-two-card .card-top img {
-    width: 55px;
-    height: 55px;
+  #section-two .section-two-card {
+    margin: 140px 0px !important;
+  }
+  #section-two .firstCard {
+    margin: 0px 0px 140px 0px !important;
+  }
+  .section-three-img {
     position: absolute;
-    bottom: 30% !important;
-    padding-right: 10px;
+    z-index: 1;
+    left: 5% !important;
+    top: 42%;
+    height: 70%;
+    width: 50% !important;
+    border: 15px solid white;
+  }
+  .section-four {
+    height: 1200px;
   }
   .section-four .section-four-cards {
-    margin: 0px 10px;
+    height: 250px;
+    margin: 10px 0px;
+  }
+  .section-five .form-title {
+    text-align: center;
+  }
+  .section-five .form-input-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-five .form-input-box .form-input {
+    width: 80%;
+    margin: 3% 5px !important;
+    height: 30px;
+  }
+  .section-five .text-area-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-five .text-area-box .form-textarea {
+    width: 80%;
+    height: 200px !important;
+    margin: 5% 0px;
+  }
+  .section-five .form-button-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-six .section-six-title::after {
+    top: 10%;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 550px) and (min-width: 320px) {
   html {
     font-size: 45%;
   }
@@ -504,9 +604,6 @@ body {
   }
   #section-two .section-two-card {
     margin: 20px 0px 140px 0px !important;
-    height: 350px !important;
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
   }
   #section-two .section-two-card:hover {
     -webkit-transform: none;
@@ -584,6 +681,56 @@ body {
   .section-four .section-four-cards .cards-bottom {
     text-align: center;
   }
+  .section-five {
+    height: 600px;
+    background-attachment: scroll;
+    overflow: hidden;
+  }
+  .section-five .section-five-title {
+    margin-bottom: 40px;
+  }
+  .section-five .section-five-title::after {
+    top: 60%;
+  }
+  .section-five .form-title {
+    text-align: center;
+    margin: 0px;
+  }
+  .section-five .form-input-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-five .form-input-box .form-input {
+    width: 100%;
+    margin: 0px !important;
+    height: 40px;
+  }
+  .section-five .text-area-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-five .text-area-box .form-textarea {
+    width: 100%;
+    margin: 0px !important;
+    height: 200px;
+  }
+  .section-five .form-button-box {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .section-six {
     height: 600px;
   }
@@ -607,14 +754,6 @@ body {
   .section-six .mapouter {
     margin-top: 30px;
     height: 250px;
-  }
-}
-
-@media only screen and (max-width: 900px) and (min-width: 551px) {
-  .section-three-text {
-    position: relative !important;
-    left: 16% !important;
-    text-align: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
