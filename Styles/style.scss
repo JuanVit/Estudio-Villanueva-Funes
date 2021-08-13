@@ -82,7 +82,7 @@ body{
             }
         }
     }
-    #section-two{
+    .section-two{
         margin-bottom: 100px;
         height: 650px;
         .section-two-title{
@@ -151,7 +151,7 @@ body{
             }
         }
     }
-    #section-three{
+    .section-three{
         height: 750px;
         box-sizing: border-box;
         position: relative;
@@ -422,7 +422,7 @@ body{
                 }
             }
         }
-        #section-two{
+        .section-two{
             height: 1200px;
             .section-two-card{
                 margin:20px 0px 140px 0px !important;
@@ -444,7 +444,7 @@ body{
                 }
             }
         }
-        #section-three{
+        .section-three{
             height: 600px;
             border: none;
             .section-three-img{
